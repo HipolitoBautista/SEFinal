@@ -1,0 +1,10 @@
+[unit]
+Description = myappNew app 
+
+[Service]
+Environment=PORT=80
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/root
+ExecStart=/root/myappNew
