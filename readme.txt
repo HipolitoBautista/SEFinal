@@ -99,3 +99,9 @@ Run the following command on in the terminal. ssh root@seproject.site. Once you'
      |
      +----+-----testing
 
+11. 
+Integration tests (program code to run unit tests and a README.txt on how to run the integration tests)
+
+Demo 2 was the integration test. 
+
+
