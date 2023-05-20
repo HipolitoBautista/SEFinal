@@ -34,7 +34,55 @@ describe the allowed values of all parameters that need to be entered while runn
  
 2.
 PDF files containing the entire Report #1 and Report #2 as these were originally sumbitted, not as modified as part of Report #3.
-  This is located inside the gitrepo under FP 
-    
+  This is located inside the git repo named as "report 1 and 2.pdf" 
+
+3.
+Microsoft PowerPoint files containing slides you used for your first demo and those used for the final demo. 
+   This is located inside the git repo named as "sepres1 ppt, sepres2 ppt" 
+4. 
+PDF file containing the entire Report #3 as in the printed version submitted earlier. The report should appear as a single file. 
+   This is licated inside the git repo named as "report 3.pdf"
+5. 
+Complete project source code. 
+   This is located inside the git repo, labeled as the FP directory. 
+6. 
+Images or button icons loaded by the program when run 
+Some Icons are impoted within the html files since we use boostrap icons. Other Images and icons can be found inside the FP directory 
+-
+|
++----+---FP
+     |
+     +----+-----ui 
+          |
+	  +--------+-----static 
+                   |
+		   +-----------------images 
+		   |
+		   +-----------------boxicons 
+7. 
+Shell-scripts, CGI scripts, HTML files, and any and all other files needed to run the program
+HTML / TMPL files can be found inside the git repo, directory map can be found below. Scripts are located inside the HTML. 
+-
+|
++----+---FP
+     |
+     +----+-----ui 
+          |
+	  +--------+-----html
+8. 
+Database tables and files or plain files containing example data to run the program 
+We require a DB setup, PSQL and the migrations tool however database files can be found inside FP under "migrations". As stated before in order to satisfy the "no setup needed to run / test requirement" a live demo can be accessed at https://seproject.site:80/.
+
+-
+|
++----+---FP
+     |
+     +----+-----migrations 
+
+9. 
+Anything else that your program requires to be run? 
+Packages, tools and DBs must be setup to run LOCALLY. In order for the program to be ran without any setup needed we have a live demo at https://seproject.site:80/
+
+10.  
 
 
