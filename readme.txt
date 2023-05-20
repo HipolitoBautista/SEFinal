@@ -84,5 +84,18 @@ Anything else that your program requires to be run?
 Packages, tools and DBs must be setup to run LOCALLY. In order for the program to be ran without any setup needed we have a live demo at https://seproject.site:80/
 
 10.  
+testcode can be ran on the live server. It is found with the models directory (found below). It is in the same directory because go requires any testcases to be in the same package as the code being tested. In order to run the testcode copy the following file "https://drive.google.com/file/d/1yscm3ZW2ReUy22YWvf3wrGY6_q_VUPT7/view?usp=share_link" into the .ssh folder of your directory.  The drive folder can only be accessed with a UB email. 
 
+Run the following command on in the terminal. ssh root@seproject.site. Once you've logged in cd to internal/models and execute the "go test" command to run all suites. In order to run individual test cases you can cd into the internal/models folder and run "go test -run `TestCaseName`". We also included old test cases in a seperate directory (from demo1) within the testing directory, these cases  are outdated and cannot be ran since we provided the UPDATED cases inside the models directory. 
+-
+|
++----+---FP
+     |
+     +----+-----models
+
+-
+|
++----+---FP
+     |
+     +----+-----testing
 
